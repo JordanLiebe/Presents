@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome to Presents</h2>
+
+<div style="display: flex; justify-content: space-between"; flex-direction: row;>
+    <div style="font-size: 20px;">
+        <ul>
+            <li>Track Group/Club Membership and Events</li>
+            <li>Allows entry of attending members for each event</li>
+            <li>Hosted on Azure</li>
+            <li>Addresses for both people and events linked to Google Maps API to show location.</li>
+        </ul>
+        <a asp-controller="People" asp-action="Add">Add Person</a> | 
+        <a asp-controller="Events" asp-action="Add">Add Event</a>
+    </div>
+    <div>
+        <img src="~/images/Stock1.jpg" width="350"/>
+    </div>
+</div>
+<br />
+<br />
+<img src="~/images/Gift.png" width="150" />
